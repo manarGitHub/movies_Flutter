@@ -1,16 +1,48 @@
-# movieslist
+📱 Movie App
 
-A new Flutter project.
+🎬 Description
 
-## Getting Started
+Movie App est une application Flutter qui affiche une liste de séries TV populaires. L'application utilise un Drawer (menu latéral) pour naviguer entre différentes pages comme le Profil et les Paramètres.
 
-This project is a starting point for a Flutter application.
+🛠️ Fonctionnalités
 
-A few resources to get you started if this is your first Flutter project:
+📌 Affichage d'une liste de séries TV avec images et titres.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+📌 Interface fluide et design épuré avec CardView.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+📌 Navigation entre différentes pages via un Drawer.
+
+📌 Pages supplémentaires : Profil et Paramètres.
+
+📌 Utilisation de GestureDetector pour accéder aux détails d'un film.
+
+🏗️ Structure du Projet
+
+lib/
+│── main.dart             # Point d'entrée de l'application
+│── movie_list_screen.dart # Écran principal avec la liste des films
+│── movie_detail_screen.dart # Écran de détails d'un film
+│── profile_screen.dart   # Page Profil
+│── settings_screen.dart  # Page Paramètres
+
+📷 Aperçu de l'application
+
+Menu Drawer/
+Liste des Films/
+Page détaillée pour chaque film.
+
+🚀 Technologies utilisées
+
+Flutter (Dart)
+
+Material Design
+
+Gestion d'état simple avec setState()
+
+🔥 À venir
+
+✅ Intégration d'une API pour récupérer des films dynamiques.✅ Ajout d'un mode sombre.
+
+🤝 Contribution
+
+Les contributions sont les bienvenues ! Forkez le repo et proposez vos améliorations.
